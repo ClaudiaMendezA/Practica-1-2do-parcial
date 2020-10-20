@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Input Text y Botones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Questrial&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Generador de cajas de texto y botones</h1>
+        <br>
+        <h4>Escriba el número de cajas de texto a crear dinámicamente</h5>
+        <br>
+        <div class="row">
+            <div class="form-group md-2">
+                <input type="number" id="num" class="form-group" placeholder="No. de cajas ">
+                <button onclick="generador()" class="btn btn-danger">Generar cajas</button>
+                <p id="cantidad"></p>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
